@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Total = (props) => {
-    const {exercises1, exercises2, exercises3} = props;
+    const {parts} = props;
     return (
-        <p>Number of Exercises {exercises1 + exercises2 + exercises3}</p>
+        <p>Number of Exercises {parts[0].exercises + parts[1].exercises + parts[2].exercises}</p>
     )
 }
 
